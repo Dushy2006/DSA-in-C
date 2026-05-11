@@ -1,3 +1,14 @@
+/*
+Program 2: Banana Level
+Write a C program to: Read N integers into an array Count and display how many numbers are even and how many are odd.
+
+Sample input:
+Enter the number of elements: 6Enter 6 integers:10 15 20 7 8 3
+
+Sample output:
+Number of Even elements = 3Number of Odd elements = 3
+
+*/
 #include<stdio.h>
 int main()
 {
