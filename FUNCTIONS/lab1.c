@@ -1,3 +1,19 @@
+/*Program 1: Banana Level
+Write a C program using multiple user-defined functions to calculate parking bill.
+Vehicle Types: 1 → Bike (₹20/hr), 2 → Car (₹40/hr), 3 → SUV (₹60/hr)
+User inputs: Vehicle type, Number of hours
+Functions:
+getRate(int type)
+calculateBill(int rate, int hours)
+displayBill(float bill)
+Sample input:
+Vehicle Types:1 → Bike (Rs.20/hr)2 → Car (Rs.40/hr)3 → SUV (Rs.60/hr)Enter Vehicle Type: 2Enter Number of Hours: 5
+
+
+Sample output:
+----- Parking Bill -----Total Parking Fee = Rs. 200.00
+
+*/
 #include<stdio.h>
 int getrate(int n){
   switch(n){
