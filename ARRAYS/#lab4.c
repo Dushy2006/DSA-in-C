@@ -1,3 +1,18 @@
+/*
+Program 4: - Orange Level
+Write a C program to: Read a 3 × 3 matrix 
+Calculate and display the sum of each row. 
+Calculate and display the sum of each column. 
+Sum of main diagonal elements 
+Sum of secondary diagonal elements
+
+Sample Input:
+Enter elements of 3 x 3 matrix:Element [0][0]: 1Element [0][1]: 2Element [0][2]: 3Element [1][0]: 4Element [1][1]: 5Element [1][2]: 6Element [2][0]: 7Element [2][1]: 8Element [2][2]: 9
+
+Sample output:
+Sum of each row:Row 1 sum = 6Row 2 sum = 15Row 3 sum = 24Sum of each column:Column 1 sum = 12Column 2 sum = 15Column 3 sum = 18Sum of main diagonal elements = 15Sum of secondary diagonal elements = 15
+
+*/
 #include<stdio.h>
 int main(){
     int m,n;
