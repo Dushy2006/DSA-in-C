@@ -1,3 +1,10 @@
+/*Program 1: Banana Level
+Write a C program to search for a given element in an array using linear search.
+The program must consider the following scenarios:
+1. Element found
+o Write a C program without using functions. If the element is found, the search
+should stop immediately and display the position of the element.
+*/
 #include<stdio.h>
 int main(){
     int n;
