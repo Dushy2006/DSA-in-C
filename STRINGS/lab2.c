@@ -1,3 +1,22 @@
+/*Program 2: Banana Level
+A student registration system stores a student's first and last name as two separate strings. The
+system also needs to check whether two entered names are the same, copy one name into
+another variable, and find the total length of the full name. Write a C program to perform the
+following operations using the built-in string functions strlen(), strcpy(), strcmp(), and strcat():
+1) 2) 3) 4) 5) Read the first name and last name of a student.
+Concatenate the first name and last name to form the full name.
+Find and display the length of the full name.
+Copy the full name into another string variable.
+Compare the copied name with another name entered by the user and display whether
+both are same or different.
+Sample input and output:
+Enter the first name of the student: PES
+Enter the last name of the student: University
+Full name of the student: PES University
+Length of the full name: 14
+Copied name: PES University
+Enter another full name to compare PESIT Bangalore
+Both names are different.*/
 #include<stdio.h>
 #include<string.h>
 
