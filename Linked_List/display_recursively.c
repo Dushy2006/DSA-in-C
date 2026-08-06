@@ -75,7 +75,7 @@ int main()
     }
     printf("Displaying linked list:");
     display(head);
-    printf("NULL/n");
+    printf("NULL\n");
 
 return 0;
 }
